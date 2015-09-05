@@ -13,7 +13,7 @@ var React = require('react')
 module.exports = SA_Table = React.createClass({displayName: "SA_Table",
 	render: function(){
 		return(
-			React.createElement("div", {className: "ui container"}, 
+			React.createElement("div", {className: "tableView"}, 
 				React.createElement("table", {className: "ui celled very compact table unstackable striped sortable selectable"}, 
 					React.createElement(SA_TableHeader, {data: this.props.data}), 
 					React.createElement(SA_TableContent, {data: this.props.data})

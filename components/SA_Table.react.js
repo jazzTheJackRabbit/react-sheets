@@ -3,7 +3,7 @@ var React = require('react')
 module.exports = SA_Table = React.createClass({
 	render: function(){
 		return(
-			<div className="ui container">
+			<div className="tableView">
 				<table className="ui celled very compact table unstackable striped sortable selectable">
 					<SA_TableHeader data={this.props.data}/>
 					<SA_TableContent data={this.props.data}/>
